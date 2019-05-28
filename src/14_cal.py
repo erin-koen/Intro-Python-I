@@ -22,3 +22,12 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
+# function that takes in a variable number of arguments
+## if no argument, return current calendar month
+## if 1 argument, assume it's a month and year = current year
+## if 2 arguments, assume it's month and year
+## if any other combination, print error message
+# def wutDate(a=datetime.currentmonth, b=datetime.currentyear):
+#    if a and b are valid date and month, return the calendar for a, b
+      # else print ("Please pass a valid month or a valid month and valid year to this function")
+      # quit()

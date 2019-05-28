@@ -9,10 +9,12 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 # Print all the contents of the file, then close the file
 
 # YOUR CODE HERE
+def read_and_print(file_path):
+    with open(file_path, 'r') as f:
+        for line in f:
+            print(line)
 
-file = open('./src/foo.txt')
-print(file.read())
-file.close()
+read_and_print('./src/foo.txt')
 
 
 # Open up a file called "bar.txt" (which doesn't exist yet) for
