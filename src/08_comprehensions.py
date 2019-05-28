@@ -11,6 +11,7 @@ for more info regarding list comprehensions.
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
 y = []
+[(y.append(i)) for i in range(5) if i is not 0]
 
 print (y)
 
@@ -18,6 +19,7 @@ print (y)
 # [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
 
 y = []
+[y.append(i**3)for i in range(10)]
 
 print(y)
 
